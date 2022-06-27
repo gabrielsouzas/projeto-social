@@ -14,7 +14,7 @@ html, body {
 
 body {
     background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
-    /* Cobre a tela inteira */
+    /* Cobre a tela inteira com a imagem, ou seja, ajusta a imagem ao container que ela está*/
     background-size: cover;
     /* Tira a rolagem */
     background-attachment: fixed;
@@ -33,4 +33,12 @@ section#telefone {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
 }
